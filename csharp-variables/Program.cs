@@ -27,5 +27,8 @@ class CSharpVariables
         Console.WriteLine("Grade: " + grade);
         Console.WriteLine("Pi Value: " + pi);
         Console.WriteLine("Is Student? " + isStudent);
+
+        //String interpolation
+        Console.WriteLine($"Hi, I'm {name} and I'm {age} years old.");
     }
 }
