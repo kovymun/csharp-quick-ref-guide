@@ -18,7 +18,7 @@ namespace CSharp
         static void Main(string[] args)
         {
             // Declare a string variable and assign a name to it
-            string firstName = "James";
+            string firstName = " James ";
 
             // String Method: Convert the string to uppercase and print it to the console
             Console.WriteLine($"Upper case string: {firstName.ToUpper()}");
@@ -26,6 +26,9 @@ namespace CSharp
 
             // String Method: Convert the string to lowercase and print it to the console
             Console.WriteLine($"Lower case string: {firstName.ToLower()}");
+
+            // String Method: Remove leading and trailing whitespace from the string and print it to the console
+            Console.WriteLine($"Trimmed string: {firstName.Trim()}");
         }
     }
 
