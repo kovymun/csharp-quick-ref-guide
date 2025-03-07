@@ -32,3 +32,6 @@ class CSharpVariables
         Console.WriteLine($"Hi, I'm {name} and I'm {age} years old.");
     }
 }
+
+//SYNTAX for defining a variable
+// datatype variableName = value; Variable declaration and initialization
